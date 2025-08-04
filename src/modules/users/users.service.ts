@@ -44,7 +44,7 @@ export class UsersService {
     return {results,totalPages};
   }
 
-  findOne(id: number) {
+  findOne(id: string) {
     return `This action returns a #${id} user`;
   }
   async findByEmail(email:string) {
